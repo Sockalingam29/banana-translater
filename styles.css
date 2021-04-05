@@ -22,23 +22,29 @@ section{
     color: white;
     max-width: 600px;
     margin:auto;
-    padding: 50px;
+    padding: 20px;
    
 }
 section div{
-    padding:10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #text{
     display:block;
     margin-top: 10px;
-    padding: 90px;
+    height: 100px;
+    width: 500px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid yellow; 
+    text-align:center;
 }
 #btntranslate{
     display: block;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -48,4 +54,17 @@ section div{
     color: yellow;
     background-color: black;
     cursor: pointer;
+}
+#outputdiv{
+    display:block;
+    box-sizing: border-box;
+    height: 100px;
+    width: 500px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 30px;
+    border:2px solid yellow;
+    color:black;
 }
