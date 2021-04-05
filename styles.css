@@ -70,6 +70,7 @@ section div {
 #outputdiv {
     display: block;
     box-sizing: border-box;
+    min-height: 100px;
     height: auto;
     width: 500px;
     max-width: 500px;
